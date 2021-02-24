@@ -26,5 +26,16 @@ public class IfExample3 {
 
         System.out.println("점수: " + score);
         System.out.println("성적: " + grade);
+
+        // 조건 연산자
+
+        int a = 10;
+        int b = 20;
+
+        int max;
+
+        max = (a > b) ? a : b;
+        System.out.println(max);
+
         }
     }
